@@ -1,0 +1,17 @@
+a.  Suppose the user enters a = 5, b = 10, and c = -30, what is the expected value of s?
+Answer: (5+10)-(-31+101) = -55
+
+b. Which instruction in your program computed the value of s and which register is used?
+Answer:    instructions - addu, add, sub
+	registers - $t0, $t1, $t2
+
+c.  What is the address of this instruction in memory?
+Answer: 	$t0 - 0xffffffc8
+	$t1 - 0x0000000a
+	$t2 - 0x00000047
+
+d.  Put a breakpoint at this instruction and write the value of the register used for computing s in 
+      decimal and hexadecimal.
+Answer:	$t0 - hexadecimal: 0x00000005 decimal: 5
+	$t1 - hexadecimal: 0x0000000a decimal: 10
+	$t2 - hexadecimal: 0xffffffe2 decimal: -30
